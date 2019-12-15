@@ -1,9 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Splash from './components/Splash';
+import Router from '../routes';
 
-const Index = () => (
-  <Splash />
-);
-
-ReactDOM.render(<Index />, document.getElementById('index'));
+ReactDOM.render(<Router />, document.getElementById('index'));
